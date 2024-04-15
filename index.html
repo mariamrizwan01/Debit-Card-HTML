@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<div class="container-box">
+    <div class="brand">
+        <img src="debit-card.jpeg" class="debit-card">
+        <img src="visa.jpeg" class="visa">
+    </div>
+
+    <form class="form-element" method="POST">
+        <label>
+            <h3>Card Number</h3>
+            <input type="number" id="card-number" placeholder="Enter 16 digit" hidden>
+        </label>
+        <label>
+            <input type="text" id="card-holder" placeholder="Enter Name" required>
+        </label>
+        <div class="last-element">
+            <label>
+                <h3>Exp</h3>
+                <input type="password" id="card-exp" placeholder="Exp" required>
+            </label>
+            <label>
+                <h3>CVV</h3>
+                <input type="password" id="card-cvv" placeholder="CVV" required>
+            </label>
+        </div>
+        <button class="btn">Complete Order</button>
+    </form>
+</div>
